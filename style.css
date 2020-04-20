@@ -46,6 +46,7 @@ p {
   text-decoration: none;
 	display: block;
 	text-align: center;
+	border-radius: 10px;
 }
 
 .button img {
