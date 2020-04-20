@@ -38,6 +38,9 @@ p {
 	font-size: 20px;
 	font-weight: 400;
 }
+span {
+	color: red;
+}
 
 .button{
 	background-color: #fcc2d7;
@@ -56,6 +59,7 @@ p {
 }
 
 .button a {
+	
 	height: 25px;
 	vertical-align: middle;
 }
