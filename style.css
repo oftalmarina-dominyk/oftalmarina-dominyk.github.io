@@ -42,7 +42,7 @@ p {
 .button{
 	background-color: #fcc2d7;
 	color: white;
-	padding: 22px 20px;
+	padding: 25px 20px;
   text-decoration: none;
 	display: block;
 	text-align: center;
@@ -50,12 +50,13 @@ p {
 
 .button img {
 	padding-right: 5px;
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	vertical-align: middle;
 }
 
 .button a {
+	height: 25px;
 	vertical-align: middle;
 }
 
