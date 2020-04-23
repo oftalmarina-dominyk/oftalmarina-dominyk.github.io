@@ -6,8 +6,6 @@ body {
 }
 
 .container	{
-	border: 2px solidы green;
-	padding: 0 auto;
 	margin: 0 auto;
 	max-width: 1200px;
 	padding-bottom: 10px;
