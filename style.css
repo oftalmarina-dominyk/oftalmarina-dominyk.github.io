@@ -136,9 +136,8 @@ hr.style-eight:after {
 @media (max-width:1024px) {
 	.container	{
 		max-width: 750px;
-		margin: 0 1%;
+		margin: 0 auto;
 	}
-	
 }
 
 @media (max-width:767px) {
