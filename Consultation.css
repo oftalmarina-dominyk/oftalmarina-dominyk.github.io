@@ -8,7 +8,7 @@ body {
 .container	{
 	border: 2px solidы green;
 	padding: 0 auto;
-	margin: 0 30%;
+	margin: 0 auto;
 	max-width: 1200px;
 }
 
@@ -38,9 +38,19 @@ p {
 	font-size: 20px;
 	font-weight: 400;
 }
-span {
-	color: red;
+
+ul {
+	padding-left: 10px;
 }
+
+ul li {
+	list-style-type: none;
+}
+
+span {
+	color: #f54257;
+}
+
 
 .button{
 	background-color: #fcc2d7;
@@ -50,6 +60,7 @@ span {
 	display: block;
 	text-align: center;
 	border-radius: 10px;
+	margin: 0 30%;
 }
 
 .button img {
@@ -57,6 +68,10 @@ span {
 	width: 25px;
 	height: 25px;
 	vertical-align: middle;
+}
+.row{
+	display: flex;
+	vertical-align: ;
 }
 
 .button a {
@@ -98,23 +113,25 @@ hr.style-eight:after {
 @media (max-width:1200px) {
 	.container	{
 		max-width: 970px;
-		margin: 0 25%;
+		
 	}
 }
 
-@media (max-width:992px) {
+@media (max-width:1024px) {
 	.container	{
 		max-width: 750px;
-		margin: 0 20%;
+		margin-top: 15%;
 	}
 }
 
 @media (max-width:767px) {
 	.container	{
 		max-width: none;
-		margin: 0 4%;
 	}
 	p {
 		font-size: 16px;
+	}
+	.button {
+		margin: 0 auto;
 	}
 }
